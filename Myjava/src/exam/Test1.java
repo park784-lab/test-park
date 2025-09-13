@@ -18,8 +18,8 @@ public class Test1 {
 
 	private static int[] makearr(int size) {
 		int[] array = new int[size];
-		Random ran = new Random();
-		for (int i = 0; i < array.length; i++) {
+		Random ran = new Random() ;
+		for (int i = 0 ; i < array.length; i++) {
 			array[i] = ran.nextInt(ramdom_max);
 		}
 
